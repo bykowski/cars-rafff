@@ -17,7 +17,7 @@ import java.util.Optional;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 
 @RestController
-@RequestMapping(value = "/cars", produces = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+@RequestMapping(value = "/cars", produces = {MediaType.APPLICATION_JSON_VALUE})
 public class CarController {
 
     private CarService carService;
